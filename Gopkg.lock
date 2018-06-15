@@ -109,6 +109,7 @@
   branch = "master"
   name = "golang.org/x/tools"
   packages = [
+    "cmd/goyacc",
     "go/ast/astutil",
     "go/buildutil",
     "go/loader"
@@ -118,6 +119,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "fbc27c49db23755161b1009dac3002a59e49e69f29f51618363c2827b141d320"
+  inputs-digest = "2060e3c7e1a112509b9dfca353493bf20970832eb8f870f14e77a32098133917"
   solver-name = "gps-cdcl"
   solver-version = 1
