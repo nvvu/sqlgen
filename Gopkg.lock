@@ -2,42 +2,6 @@
 
 
 [[projects]]
-  branch = "master"
-  name = "github.com/awalterschulze/goderive"
-  packages = [
-    "derive",
-    "plugin/all",
-    "plugin/any",
-    "plugin/clone",
-    "plugin/compare",
-    "plugin/compose",
-    "plugin/contains",
-    "plugin/curry",
-    "plugin/deepcopy",
-    "plugin/do",
-    "plugin/dup",
-    "plugin/equal",
-    "plugin/filter",
-    "plugin/flip",
-    "plugin/fmap",
-    "plugin/gostring",
-    "plugin/intersect",
-    "plugin/join",
-    "plugin/keys",
-    "plugin/max",
-    "plugin/min",
-    "plugin/pipeline",
-    "plugin/set",
-    "plugin/sort",
-    "plugin/takewhile",
-    "plugin/tuple",
-    "plugin/uncurry",
-    "plugin/union",
-    "plugin/unique"
-  ]
-  revision = "a3acd3a68e1531b9609813a04f7e1e29e61ec597"
-
-[[projects]]
   name = "github.com/davecgh/go-spew"
   packages = ["spew"]
   revision = "346938d642f2ec3594ed81d874461961cd0faa76"
@@ -60,15 +24,6 @@
   packages = ["."]
   revision = "77f18212c9c7edc9bd6a33d383a7b545ce62f064"
   version = "v4.2.1"
-
-[[projects]]
-  name = "github.com/kisielk/gotool"
-  packages = [
-    ".",
-    "internal/load"
-  ]
-  revision = "80517062f582ea3340cd4baf70e86d539ae7d84d"
-  version = "v1.0.0"
 
 [[projects]]
   branch = "master"
@@ -108,17 +63,12 @@
 [[projects]]
   branch = "master"
   name = "golang.org/x/tools"
-  packages = [
-    "cmd/goyacc",
-    "go/ast/astutil",
-    "go/buildutil",
-    "go/loader"
-  ]
+  packages = ["cmd/goyacc"]
   revision = "a5b4c53f6e8bdcafa95a94671bf2d1203365858b"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "2060e3c7e1a112509b9dfca353493bf20970832eb8f870f14e77a32098133917"
+  inputs-digest = "39f8a4f523e8194df3465583d79cc63982d6cf053b561620877b69dec6087f17"
   solver-name = "gps-cdcl"
   solver-version = 1
